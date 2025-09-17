@@ -31,6 +31,10 @@ int main() {
     printf ("digite o pib\n");
     scanf ("%f", &pib);
 
+    printf ("a carta é: %s\n - o estado é: %s\n - a cidade é: %s\n - a população é: %d\n" , carta, estado, cidade, populacao);
+    printf ("número de pontos turisticos é: %d\n - área: %f\n - pib: %f\n", pontosturisticos, area, pib);
+
+
 }
 
 return 0;
